@@ -42,4 +42,4 @@ mouseVirtual - object to be used with objectOverlap()
 window - used to move the windows window, activate rigidWindow to start moving it
 
 # I recommend using this extension so you don't have to look for the code in the script.
-```https://marketplace.visualstudio.com/items?itemName=liwangqian.luacoderassist```
+https://marketplace.visualstudio.com/items?itemName=liwangqian.luacoderassist
