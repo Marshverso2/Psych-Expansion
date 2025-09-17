@@ -1,20 +1,20 @@
 # VARIABLES
-```build``` -- returns in mobile or PC string
-```language``` -- returns PC language string
-```monitorWidth``` and ```monitorHeight``` -- returns in number the monitor resolution
-```windowOrigin``` -- returns in array {x,y,width,height} as the window was before
-```rigidWindow``` -- set to true so that it follows the window
-```reposWindow``` -- set to true so that when paused/killed the window returns to the default position
-```keyboard``` -- an array with all the keys
-```gamepad``` -- if a controller is connected, it returns true
+build -- returns in mobile or PC string
+language -- returns PC language string
+monitorWidth and monitorHeight -- returns in number the monitor resolution
+windowOrigin -- returns in array {x,y,width,height} as the window was before
+rigidWindow -- set to true so that it follows the window
+reposWindow -- set to true so that when paused/killed the window returns to the default position
+keyboard -- an array with all the keys
+gamepad -- if a controller is connected, it returns true
 
-```skipTransitionIn``` and ```skipTransitionOut``` -- are used to skip the default transition
-```highScore``` -- returns the maximum score
-```playerOrigin``` -- returns in array [bot, dumb] bot play and practice mode
-```curStepR``` -- used to repeat ```curStep``` without having to redo part of the code
-```curBeatR``` -- used to repeat ```curBeat``` without having to redo part of the code
-```stageZoom``` -- returns in original number the stage zoom (lol)
-```camSpeed``` ​​-- returns in original number the camera speed
+skipTransitionIn and skipTransitionOut -- are used to skip the default transition
+highScore -- returns the maximum score
+playerOrigin -- returns in array [bot, dumb] bot play and practice mode
+curStepR -- used to repeat curStep without having to redo part of the code
+curBeatR -- used to repeat curBeat without having to redo part of the code
+stageZoom -- returns in original number the stage zoom (lol)
+camSpeed ​​-- returns in original number the camera speed
 
 # COMMANDS
 camResolution(width:int, height:int, cam:string)
@@ -38,8 +38,8 @@ colorTransparency(color:string, type:string)
 updateWindowVar()
 
 # OBJECTS SPECIALS
-"mouseVirtual" - object to be used with objectOverlap()
-"window" - used to move the windows window, activate rigidWindow to start moving it
+mouseVirtual - object to be used with objectOverlap()
+window - used to move the windows window, activate rigidWindow to start moving it
 
 # I recommend using this extension so you don't have to look for the code in the script.
 ```https://marketplace.visualstudio.com/items?itemName=liwangqian.luacoderassist```
